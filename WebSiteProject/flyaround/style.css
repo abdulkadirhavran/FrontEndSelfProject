@@ -1,17 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-.navbar-brand{
-
+.navbar-brand {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
   background-color: rgb(30, 86, 145);
 }
 
-.section_hero {
+.subNav {
   background-color: rgb(5, 32, 60);
   color: white;
 }
 .row {
   margin: 2px;
 }
+
+#planeImg {
+  margin-left: 10%;
+  border: 2px solid;
+  border-color:rgb(202, 117, 14);
+  border-radius: 5%;
+}
+
