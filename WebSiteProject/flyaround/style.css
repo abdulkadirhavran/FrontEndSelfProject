@@ -1,18 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+* {
+  overflow-x: hidden;
+}
+
+.faqHead {
+  font-size: 28px;
+}
+
+.image-represent {
+  background-image: url("https://www.airlines.org/wp-content/uploads/2020/10/HeaderImage-1.png");
+  border: 2px solid black;
+  padding: 25px;
+  background-size: auto;
+  background-repeat:round;
+  width:auto;
+  height: 400px;
+}
+
+#catcWord{
+  font-size: 48px;
+  opacity: 80%;
+
+}
+
 .navbar-brand {
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
 }
 
 nav {
-  background-color: rgb(30, 86, 145);
+  background-color: rgb(3, 9, 19);
+}
+
+.planeImg {
+  border: 2px solid rgb(216, 72, 72);
+  opacity: 70%;
 }
 
 .subNav {
   background-color: rgb(5, 32, 60);
   color: white;
 }
+
 .row {
   margin: 2px;
 }
@@ -20,7 +50,23 @@ nav {
 #planeImg {
   margin-left: 10%;
   border: 2px solid;
-  border-color:rgb(202, 117, 14);
+  border-color: rgb(202, 117, 14);
   border-radius: 5%;
 }
 
+section > .container {
+  margin-left: 200px;
+  opacity: 75%;
+}
+
+.button {
+  padding: 50px;
+}
+
+.intermedian {
+  background-color: darkblue !important;
+  color: whitesmoke !important;
+  &:hover {
+    background-color: rgb(19, 75, 197) !important;
+  }
+}
